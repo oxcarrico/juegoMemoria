@@ -1,26 +1,22 @@
-#Gestor de Ansiedad en Java
-Descripción
-El Gestor de Ansiedad en Java es una aplicación simple que te permite llevar un registro de tus niveles de ansiedad. Puedes agregar, modificar y eliminar entradas de ansiedad junto con sus niveles asociados.
+JUEGO DE MEMORIA SWIFT
 
-Características
-Agregar una entrada de ansiedad con su nivel correspondiente.
-Modificar el nivel de ansiedad de una entrada existente.
-Eliminar una entrada de ansiedad.
-Uso
-Agregar una Ansiedad:
+//DESCRIPCIÓN//
+
+Es una apliacion de un juego en el que se muetran 6 imagenes en un orden aleatorio. Cuando termine se deben presionar los botones en el mismo orden que en el que se mostraron las imagenes.
+Al terminar podras ver la puntuacion actual, la mas alta y luego podras ver un registro de todas las puntuaciones totales.
+
+//INSTRUCIONES//
 
 Abre la aplicación.
-Haz clic en el botón "Agregar Ansiedad".
-Ingresa el nombre de la ansiedad y su nivel en la ventana emergente.
-Presiona "Guardar" para agregar la entrada.
-Modificar el Nivel de Ansiedad:
 
-Selecciona una entrada existente de la lista de ansiedades.
-Haz clic en el botón "Modificar Nivel".
-Ingresa el nuevo nivel en la ventana emergente.
-Presiona "Guardar" para actualizar el nivel.
-Eliminar una Entrada de Ansiedad:
+Haz clic en el botón Jugar.
 
-Selecciona una entrada de la lista.
-Haz clic en el botón "Eliminar".
-Confirma la eliminación en la ventana emergente.
+Recuerda la secuencia.
+
+Pulsa los botones en el orden correcto,
+
+//PUNTUACIÓN//
+
+Puntuación Actual: Al finalizar cada ronda, podrás ver tu puntuación actual.
+
+Puntuación Más Alta: Mantén un ojo en tu puntuación más alta para superar tus récords anteriores.
