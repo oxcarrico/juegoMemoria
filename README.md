@@ -1,4 +1,4 @@
-#Juego de Secuencia de Imágenes
+Juego de Secuencia de Imágenes
 ¡Bienvenido al Juego de Secuencia de Imágenes! Desarrollado en Swift con UIKit, este emocionante juego desafía tu memoria mientras intentas ordenar una secuencia de seis imágenes únicas. Sigue las instrucciones en pantalla, ¡y ve cuánto puedes recordar!
 
 Capturas de Pantalla
