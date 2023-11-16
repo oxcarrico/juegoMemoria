@@ -1,48 +1,26 @@
-Juego de Secuencia de Imágenes
-¡Bienvenido al Juego de Secuencia de Imágenes! Desarrollado en Swift con UIKit, este emocionante juego desafía tu memoria mientras intentas ordenar una secuencia de seis imágenes únicas. Sigue las instrucciones en pantalla, ¡y ve cuánto puedes recordar!
-
-Capturas de Pantalla
-Captura de Pantalla 1
-Captura de Pantalla 2
+#Gestor de Ansiedad en Java
+Descripción
+El Gestor de Ansiedad en Java es una aplicación simple que te permite llevar un registro de tus niveles de ansiedad. Puedes agregar, modificar y eliminar entradas de ansiedad junto con sus niveles asociados.
 
 Características
-Secuencia Aleatoria: Las imágenes se presentan en un orden aleatorio para un desafío dinámico.
-Puntuaciones Actuales y Máximas: Rastrea tu puntuación actual y la máxima para una retroalimentación instantánea.
-Integración con Firebase: Almacena y comparte tus puntuaciones utilizando Firebase para competir por el primer lugar.
-Tecnologías Utilizadas
-Swift: Lenguaje principal.
-UIKit: Framework para una interfaz de usuario intuitiva en iOS.
-Firebase: Plataforma para gestionar puntuaciones y competir con otros jugadores.
-Configuración
-Clonación del Repositorio:
-
-bash
-Copy code
-git clone https://github.com/tu-usuario/tu-repositorio.git
-Apertura del Proyecto en Xcode:
-
-Abre el proyecto en Xcode y asegúrate de tener todas las dependencias instaladas.
-Configuración de Firebase:
-
-Configura tu proyecto con las credenciales de Firebase según la documentación oficial.
+Agregar una entrada de ansiedad con su nivel correspondiente.
+Modificar el nivel de ansiedad de una entrada existente.
+Eliminar una entrada de ansiedad.
 Uso
-Juego:
-Abre la aplicación en un emulador o dispositivo iOS.
-Sigue las instrucciones en pantalla para seleccionar las imágenes en el orden correcto.
-swift
-Copy code
-// Ejemplo de manejo de la lógica del juego
-@IBAction func buttonPressed(_ sender: UIButton) {
-    // ... lógica de manejo de pulsaciones y comparación de secuencia ...
-}
-Registro de Puntuaciones:
-Observa tu puntuación y la máxima al final del juego.
-Las puntuaciones se registran en Firebase al avanzar a la siguiente pantalla.
-swift
-Copy code
-// Ejemplo de registro de puntuación local
-func guardarPuntuacionLocalmente() {
-    UserDefaults.standard.set(puntuaciones, forKey: "PuntuacionActual")
-}
-Contribuciones
-¡Las contribuciones son bienvenidas! Si encuentras errores o tienes sugerencias, por favor, abre un issue o envía un pull request.
+Agregar una Ansiedad:
+
+Abre la aplicación.
+Haz clic en el botón "Agregar Ansiedad".
+Ingresa el nombre de la ansiedad y su nivel en la ventana emergente.
+Presiona "Guardar" para agregar la entrada.
+Modificar el Nivel de Ansiedad:
+
+Selecciona una entrada existente de la lista de ansiedades.
+Haz clic en el botón "Modificar Nivel".
+Ingresa el nuevo nivel en la ventana emergente.
+Presiona "Guardar" para actualizar el nivel.
+Eliminar una Entrada de Ansiedad:
+
+Selecciona una entrada de la lista.
+Haz clic en el botón "Eliminar".
+Confirma la eliminación en la ventana emergente.
