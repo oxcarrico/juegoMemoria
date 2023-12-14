@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA10469A2B2B88E600BB5B7E /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA1046992B2B88E600BB5B7E /* GoogleService-Info-2.plist */; };
 		AA1F20DE2AF467E600DA8991 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F20DD2AF467E600DA8991 /* GameOverViewController.swift */; };
 		AA635D7F2AEAF87A004EFE2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635D7E2AEAF87A004EFE2D /* AppDelegate.swift */; };
 		AA635D812AEAF87A004EFE2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635D802AEAF87A004EFE2D /* SceneDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA1046992B2B88E600BB5B7E /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		AA1F20DD2AF467E600DA8991 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		AA635D7B2AEAF87A004EFE2D /* TareaIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareaIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA635D7E2AEAF87A004EFE2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				AA1F20DD2AF467E600DA8991 /* GameOverViewController.swift */,
 				AAAF0DFF2AFD428E00C000F3 /* finJuego.swift */,
 				AAAF0E022AFD4EEC00C000F3 /* puntuacionesView.swift */,
+				AA1046992B2B88E600BB5B7E /* GoogleService-Info-2.plist */,
 				AAAF0E0B2AFD6D8600C000F3 /* GoogleService-Info.plist */,
 			);
 			path = TareaIos;
@@ -150,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA10469A2B2B88E600BB5B7E /* GoogleService-Info-2.plist in Resources */,
 				AA635D8B2AEAF87C004EFE2D /* LaunchScreen.storyboard in Resources */,
 				AAAF0E0C2AFD6D8600C000F3 /* GoogleService-Info.plist in Resources */,
 				AA635D882AEAF87C004EFE2D /* Assets.xcassets in Resources */,
